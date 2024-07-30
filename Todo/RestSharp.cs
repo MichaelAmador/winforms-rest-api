@@ -78,8 +78,7 @@ namespace Todo
 
         private void dgvData_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e) => RightClickMouseDgv(ref dgvData, e);
 
-        #region RestSharp 
-        //HttpClient client = new HttpClient();
+        #region RestSharp         
         string api = "http://localhost:3000";
 
         async void getCategories()
